@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-ar: 'Cairo', system-ui, -apple-system, sans-serif;
+    --font-en: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  html[lang="ar"], html[dir="rtl"] {
+    font-family: var(--font-ar);
+  }
+
+  html[lang="en"], html[dir="ltr"] {
+    font-family: var(--font-en);
+  }
+}
+
+/* Custom sleek scrollbar for CRM tables & kanban */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Luxury Gold & Navy utility classes */
+.gold-gradient {
+  background: linear-gradient(135deg, #d4af37 0%, #f3e5ab 50%, #aa771c 100%);
+}
+
+.gold-text {
+  background: linear-gradient(135deg, #b8860b 0%, #d4af37 50%, #996515 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navy-gradient {
+  background: linear-gradient(135deg, #0b192c 0%, #1e3e62 100%);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Heaven Real Estate CRM - Alexandria",
+  "description": "Professional, bilingual real estate CRM for Heaven Real Estate in Alexandria, Egypt. Manage leads, sales agents, properties, follow-ups, reservations, and sales reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
